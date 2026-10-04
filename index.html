@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good Luck, Princess 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <section id="welcome" class="screen welcome">
+    <div class="welcome-card">
+      <div class="tiny">💌 A little something for you</div>
+      <h1>For My Princess 💗</h1>
+      <p>A little wish before your exam...</p>
+      <button class="main-btn" onclick="openLetter()">Open for you 💌</button>
+    </div>
+  </section>
+
+  <main id="main" class="hidden">
+    <section class="hero">
+      <div class="badge">🌷 GOOD LUCK, PRINCESS 🌷</div>
+      <h1>You've Got This, Sayanggg! 💗</h1>
+      <p class="subtitle">orang percaya dekat kamu, always.</p>
+    </section>
+
+    <section class="photos">
+      <div class="polaroid tilt-left">
+        <img src="photo1.jpg" alt="Picture 1">
+        <p>my pretty girl 💗</p>
+      </div>
+      <div class="polaroid tilt-right">
+        <img src="photo2.jpg" alt="Picture 2">
+        <p>my hardworking princess 🌷</p>
+      </div>
+      <div class="polaroid tilt-left">
+        <img src="photo3.jpg" alt="Picture 3">
+        <p>the girl I'm always proud of 🥹</p>
+      </div>
+    </section>
+
+    <section class="message-card">
+      <div class="envelope">💌</div>
+      <h2>A little message from orang</h2>
+      <div class="letter">
+        <p>heyy princess orangg 🥺💗</p>
+        <p>i know i said this aa lot but aiwofyuuu sooo sooo muchh. thank you for being with me mwahhh 💋</p>
+        <p>but this wish untuk exam kamu orang just nak cakap goodluck sayanggg. orang wish the best for you and orang tau kamu boleh buatt. whatever the results is, i will always be proud of my sayanggg 💗</p>
+        <p>because i know all the struggle, all the stress and all the sacrifice that you've done. orang nampak semua tu, yaang. and orang tau kamu boleh buat. percaya diri kamu okayy? 🥺</p>
+        <p>do your best, take a deep breath, and remember that you've worked so hard for this. whatever happens, orang will still be proud of my princess.</p>
+        <p>and again...</p>
+        <p>i love you and miss you sooo soooo muchh sayang oranggg 🥺💗</p>
+        <p>princess oranggg mwahhhh mwahhh 💋💋💗💗💗</p>
+        <p class="signature">— from orang, yang sayang kamu banyakkk 💗</p>
+      </div>
+    </section>
+
+    <section class="buttons-section">
+      <h2>For when you need a little boost 💗</h2>
+      <div class="button-grid">
+        <button onclick="showPopup('hug')">🫂 Emergency Hug</button>
+        <button onclick="showPopup('kiss')">💋 Mwahhh</button>
+        <button onclick="showPopup('nervous')">🌷 Feeling Nervous?</button>
+        <button onclick="showPopup('proud')">🥹 One More Thing...</button>
+      </div>
+    </section>
+
+    <section class="final">
+      <div class="sparkle">✦ ✧ ✦</div>
+      <h2>No matter what happens...</h2>
+      <p>orang will always be proud of you, princess.</p>
+      <div class="big-love">I LOVE YOUUU 💗</div>
+      <p class="miss">and I miss you sooo soooo muchh 🥺</p>
+    </section>
+  </main>
+
+  <div id="popup" class="popup hidden">
+    <div class="popup-card">
+      <button class="close" onclick="closePopup()">×</button>
+      <div id="popup-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
